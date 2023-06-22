@@ -10,6 +10,7 @@ import re
 
 
 def main():
+    st.set_page_config(page_title='ML App', page_icon=':robot_face:')
     st.title("NLP")
     st.subheader("Welcome to my Application for review analysis")
     st.caption("Made by Divey Anand")
