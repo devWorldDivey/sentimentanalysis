@@ -1,6 +1,7 @@
 ##############main functiom
 import streamlit as st
 import nltk
+nltk.download('all')
 
 # NLP Pkgs
 from textblob import TextBlob
