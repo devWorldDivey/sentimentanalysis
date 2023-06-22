@@ -49,10 +49,10 @@ def main():
     if st.button("Analyze"):
         blob = TextBlob(text)
         result = blob.sentiment.polarity
-        if result > 0.0:
+        if result > 0.8:
             custom_emoji = ':blush:'
             st.success('Happy : {}'.format(custom_emoji))
-        elif result < 0.0:
+        elif result < 0.4:
             custom_emoji = ':disappointed:'
             st.warning('Sad : {}'.format(custom_emoji))
         else:
