@@ -1,5 +1,5 @@
 images/Capture1.PNG
-![Image alt text](https://github.com/devWorldDivey/sentimentanalysis/images/Capture1.PNG)
+![alt text](https://github.com/devWorldDivey/sentimentanalysis/blob/main/images/Capture1.PNG)
 # sentimentanalysis
 NLP Application
 This application uses natural language processing (NLP) to analyze text and determine its sentiment. The application is written in Python and uses the Streamlit library to create a web-based interface.
