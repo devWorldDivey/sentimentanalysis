@@ -16,7 +16,6 @@ def main():
     st.caption("Made by Divey Anand")
     text = st.text_area("Enter Your Text")
     #####Added Background - START
-
     def add_bg_from_url():
     st.markdown(
          f"""
@@ -30,9 +29,7 @@ def main():
          """,
          unsafe_allow_html=True
      )
-
-    add_bg_from_url() 
-    
+    add_bg_from_url()
     #####Added Background - END
     #Text Cleaning
     #Keeping only Text and digits
