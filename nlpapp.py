@@ -15,15 +15,23 @@ def main():
     st.caption("Made by Divey Anand")
     text = st.text_area("Enter Your Text")
     #####Added Background - START
-    page_bg_img = '''
-    <style>
-    body {
-    background-image: url("https://img.freepik.com/free-vector/gradient-smooth-background_79603-1782.jpg?w=2000");
-    background-size: cover;
-    }
-    </style>
-    '''    
-    st.markdown(page_bg_img, unsafe_allow_html=True)
+
+    def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+    add_bg_from_url() 
+    
     #####Added Background - END
     #Text Cleaning
     #Keeping only Text and digits
