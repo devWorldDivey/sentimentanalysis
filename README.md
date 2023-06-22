@@ -1,4 +1,5 @@
-images/Capture1.PNG
+![alt text](https://github.com/devWorldDivey/sentimentanalysis/blob/main/images/Capture3.PNG)
+![alt text](https://github.com/devWorldDivey/sentimentanalysis/blob/main/images/Capture2.PNG)
 ![alt text](https://github.com/devWorldDivey/sentimentanalysis/blob/main/images/Capture1.PNG)
 # sentimentanalysis
 NLP Application
