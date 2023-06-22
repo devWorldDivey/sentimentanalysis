@@ -20,7 +20,6 @@ To install the application, you will need to have Python and the Streamlit libra
 
 Once you have Streamlit installed, you can run the application by running the following command:
 
-# Use code with caution. Learn more
 # streamlit run nlpapp.py
 
 # Usage
