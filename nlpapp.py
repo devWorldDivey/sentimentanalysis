@@ -11,8 +11,20 @@ import re
 
 def main():
     st.title("NLP")
-    st.subheader("Welcome to our Application")
+    st.subheader("Welcome to my Application for review analysis")
+    st.caption("Made by Divey Anand")
     text = st.text_area("Enter Your Text")
+    #####Added Background - START
+    page_bg_img = '''
+    <style>
+    body {
+    background-image: url("https://img.freepik.com/free-vector/gradient-smooth-background_79603-1782.jpg?w=2000");
+    background-size: cover;
+    }
+    </style>
+    '''    
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+    #####Added Background - END
     #Text Cleaning
     #Keeping only Text and digits
     text = re.sub(r"[^A-Za-z0-9]", " ", text)
