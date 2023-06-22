@@ -21,7 +21,7 @@ def main():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
+             background-image: url("https://cdn.wallpapersafari.com/5/20/7NVLhA.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
