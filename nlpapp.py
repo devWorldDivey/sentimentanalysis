@@ -17,7 +17,7 @@ def main():
     text = st.text_area("Enter Your Text")
     #####Added Background - START
     def add_bg_from_url():
-    st.markdown(
+        st.markdown(
          f"""
          <style>
          .stApp {{
